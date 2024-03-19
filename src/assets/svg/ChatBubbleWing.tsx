@@ -1,4 +1,4 @@
-const ChatBubbleWing = ({ className, pathClassName }) => {
+const ChatBubbleWing = ({ className, pathClassName }: any) => {
   return (
     <svg
       className={`${className || ""}`}

@@ -26,10 +26,8 @@ const Button = ({ className, href, onClick, children, px, white }: Props) => {
 
   const renderLink = () => (
     <a href={href} className={classes}>
-      <span className={spanClasses}>
-        {children}
-        {ButtonSvg(white)}
-      </span>
+      <span className={spanClasses}>{children}</span>
+      {ButtonSvg(white)}
     </a>
   );
   return href ? renderLink() : renderButton();

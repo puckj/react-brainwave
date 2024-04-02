@@ -2,7 +2,7 @@ import TagLine from "./TagLine";
 
 interface Props {
   className?: string;
-  title: string;
+  title?: string;
   text?: string;
   tag?: string;
 }
